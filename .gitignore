@@ -1,0 +1,21 @@
+# Python compiled bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments (if created locally)
+venv/
+env/
+.env
+
+# Model caches and logs
+.cache/
+*.log
+
+# Generated directories
+data/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
