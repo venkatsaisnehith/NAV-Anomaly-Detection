@@ -95,7 +95,7 @@ if TORCH_AVAILABLE:
             reconstructed = self.decoder(latent)
             return reconstructed
 else:
-    # Dummy class placeholder if torch is not installed
+    # Fallback definition when PyTorch dependencies are not available
     class AutoencoderNet:
         pass
 
